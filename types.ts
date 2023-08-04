@@ -1,5 +1,5 @@
 //For this type, we can know all the properties and methods it is associated with
-const date = new Date()
+const date1 = new Date()
 
 const person = {
   age: 20
