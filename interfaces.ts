@@ -48,7 +48,7 @@ const printSummary = (vehicle: Report): void => {
 
 const oldCivic1 = {
   summary() : string {
-    return `name is ${this.name}`
+    return `name is Summary it is`
   }
 }
 
