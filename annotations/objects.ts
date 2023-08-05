@@ -15,7 +15,7 @@ const dogs = {
 //const {age}  = dogs we are getting the age out of dogs
 //const {age1}: {age: number}  = dogs. -> age1 and age has to be same
 //here the second part tell we are going to take age from the dogs and put it back into age
-const {age, name}: {age: number, name: string}  = dogs
+const {age}: {age: number}  = dogs
 
 //the second part is describing the bmi
 const {bmi: {height, weight}} : {bmi: {height: number, weight: number}}= dogs
